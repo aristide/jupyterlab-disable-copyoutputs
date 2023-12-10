@@ -1,0 +1,19 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.4
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: mendoo.aristide@gmail.com
+author_name: Aristide
+data_format: string
+file_extension: ''
+has_binder: true
+has_settings: false
+kind: frontend
+labextension_name: jupyterlab-disable-copyoutputs
+mimetype: ''
+mimetype_name: ''
+project_short_description: remove copy outputs context menu button
+python_name: jupyterlab_disable_copyoutputs
+repository: https://github.com/aristide/jupyterlab-disbale-copyoutputs
+test: true
+viewer_name: ''
+
