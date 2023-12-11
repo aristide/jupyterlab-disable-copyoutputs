@@ -1,5 +1,11 @@
 # Changelog
 
-<!-- <START NEW CHANGELOG ENTRY> -->
+## [3.6.3] - 2023-12-11
+ 
+### Added
+- remove file and outputs downdload features from menus
 
-<!-- <END NEW CHANGELOG ENTRY> -->
+### Changed
+ 
+### Fixed
+ 

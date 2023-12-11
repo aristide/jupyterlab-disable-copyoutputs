@@ -5,7 +5,7 @@ remove copy outputs context menu button
 
 ## Requirements
 
-- JupyterLab >= 4.0.0
+- JupyterLab >= 3.6.3
 
 ## Install
 
