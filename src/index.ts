@@ -12,7 +12,7 @@ namespace CommandIDs {
 }
 
 interface IMenuCommands {
-  _commands: { [index: string]: unknown }
+  _commands: { [index: string]: unknown };
 }
 
 /**
@@ -24,13 +24,20 @@ const plugin: JupyterFrontEndPlugin<void> = {
   autoStart: true,
   activate: (app: JupyterFrontEnd) => {
     app.restored.then(() => {
-      const itemsToRemove = [ CommandIDs.copyToClipboard, CommandIDs.downloadFile, CommandIDs.downloadDoc, CommandIDs.exportNotebook ]
-      const commands = <IMenuCommands><CommandRegistry | IMenuCommands>app.commands;
+      const itemsToRemove = [
+        CommandIDs.copyToClipboard,
+        CommandIDs.downloadFile,
+        CommandIDs.downloadDoc,
+        CommandIDs.exportNotebook
+      ];
+      const commands = <IMenuCommands>(
+        (<CommandRegistry | IMenuCommands>app.commands)
+      );
       app.commands;
       itemsToRemove.forEach(item => {
-          delete commands._commands[item]
-      })
-    })
+        delete commands._commands[item];
+      });
+    });
   }
 };
 
