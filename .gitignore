@@ -128,3 +128,9 @@ yarn.lock
 
 # Notebook
 *.ipynb
+
+# Vs code
+.vscode
+
+# github action
+old_build.yml
