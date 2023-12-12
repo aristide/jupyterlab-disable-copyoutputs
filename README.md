@@ -1,6 +1,6 @@
 # jupyterlab_disable_copyoutputs
 
-[![npm version](https://badge.fury.io/js/jupyterlab-disable-copyoutputs.svg)](https://badge.fury.io/js/jupyterlab-disable-copyoutputs)[![PyPI version](https://badge.fury.io/py/jupyterlab_disable_copyoutputs.svg)](https://badge.fury.io/py/jupyterlab_disable_copyoutputs)[![Github Actions Status](https://github.com/aristide/jupyterlab-disbale-copyoutputs/workflows/Build/badge.svg)](https://github.com/aristide/jupyterlab-disbale-copyoutputs/actions/workflows/master.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aristide/jupyterlab-disbale-copyoutputs/master?urlpath=lab)
+[![npm version](https://badge.fury.io/js/jupyterlab-disable-copyoutputs.svg)](https://badge.fury.io/js/jupyterlab-disable-copyoutputs)[![PyPI version](https://badge.fury.io/py/jupyterlab_disable_copyoutputs.svg)](https://badge.fury.io/py/jupyterlab_disable_copyoutputs)[![Build](https://github.com/aristide/jupyterlab-disable-copyoutputs/actions/workflows/master.yml/badge.svg?branch=master&event=push)](https://github.com/aristide/jupyterlab-disable-copyoutputs/actions/workflows/master.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aristide/jupyterlab-disbale-copyoutputs/master?urlpath=lab)
 
 remove copy outputs context menu button.
 
