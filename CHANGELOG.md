@@ -1,6 +1,9 @@
-# Changelog
+# Change Log
 
-## [3.6.3] - 2023-12-11
+<!-- <START NEW CHANGELOG ENTRY> -->
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+## 3.6.3
 
 ### Added
 
