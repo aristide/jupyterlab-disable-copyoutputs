@@ -124,7 +124,6 @@ dmypy.json
 
 # Yarn cache
 .yarn/
-yarn.lock
 
 # Notebook
 *.ipynb
