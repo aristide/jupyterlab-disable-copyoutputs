@@ -135,3 +135,4 @@ dmypy.json
 # github action
 old_build.yml
 .jupyter_releaser_checkout/
+release.yml
