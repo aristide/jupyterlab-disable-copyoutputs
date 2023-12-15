@@ -21,6 +21,8 @@ jobs:
       run: python -m pip install -U "jupyterlab>=3.6.3,<5"
 
     - name: Lint the extension
+      env:
+        YARN_ENABLE_IMMUTABLE_INSTALLS: 0
       run: |
         set -eux
         jlpm
@@ -141,6 +143,7 @@ jobs:
 
   check_links:
     name: Check Links
+    needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
